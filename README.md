@@ -15,9 +15,9 @@ Supports
 Usage:
 
     <?php
-	      include('continuata.php');
+    	include('continuata.php');
 
-	      $continuata = new Continuata($company_id, $company_password);
-        $continuata->addPurchase($customer_name, $customer_email, $product_sku);
-        var_dump($continuata->getSerialNumber($customer_email, $product_sku));
+	$continuata = new Continuata($company_id, $company_password);
+	$continuata->addPurchase($customer_name, $customer_email, $product_sku);
+	var_dump($continuata->getSerialNumber($customer_email, $product_sku));
     ?>
