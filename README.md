@@ -21,3 +21,5 @@ Usage:
         $continuata->addPurchase($customer_name, $customer_email, $product_sku);
         var_dump($continuata->getSerialNumber($customer_email, $product_sku));
     ?>
+
+Purchases should be made from a place in your shopping cart code where the transaction has been authorised as successful.
